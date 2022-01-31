@@ -13,12 +13,19 @@ import {
   Span,
 } from "./HeaderStyles";
 
-const Header = () => (
+const Header: React.FC = () => (
   <>
     <Container>
       <Div1>
         <Link href='/'>
-          <a style={{ display: "flex", alignItens: "center", color: "white" }}>
+          <a
+            style={{
+              display: "flex",
+              alignItems: "center",
+              color: "white",
+              marginBottom: "20",
+            }}
+          >
             <DiCssdeck size='2rem' /> <Span>Portfolio</Span>
           </a>
         </Link>
