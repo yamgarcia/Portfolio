@@ -15,9 +15,7 @@ const Hero = () => (
         <SectionTitle main center>
           Marcos Garcia
         </SectionTitle>
-        <SectionText>
-          Full Stack Developer and Long Time Digital Marketer
-        </SectionText>
+        <SectionText>Full Stack Development & Digital Marketing</SectionText>
         <Button
           onClick={() => {
             window.location.href = "https://google.com";

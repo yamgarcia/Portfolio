@@ -35,15 +35,15 @@ const Footer = () => {
             <Slogan> Vancouver - BC </Slogan>
           </CompanyContainer>
           <SocialContainer>
-            <SocialIcons href='https://github.com'>
+            <SocialIcons href='https://github.com/yamgarcia'>
               <AiFillGithub size='3rem' />
             </SocialIcons>
 
-            <SocialIcons href='https://linkedin.com'>
+            <SocialIcons href='https://www.linkedin.com/in/marcos-g/'>
               <AiFillLinkedin size='3rem' />
             </SocialIcons>
 
-            <SocialIcons href='https://instagram.com'>
+            <SocialIcons href='https://www.instagram.com/yanmaxbr/'>
               <AiFillInstagram size='3rem' />
             </SocialIcons>
           </SocialContainer>
