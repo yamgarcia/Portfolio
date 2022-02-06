@@ -53,7 +53,14 @@ export const projects: IProjects = [
   },
 ];
 
-export const TimeLineData = [
+interface ITimeLineDatas extends Array<ITimeLineData> {}
+
+interface ITimeLineData {
+  year: number;
+  text: string;
+}
+
+export const TimeLineData: ITimeLineDatas = [
   { year: 2017, text: "Started my journey" },
   { year: 2018, text: "Worked as a freelance developer" },
   { year: 2019, text: "Founded JavaScript Mastery" },
