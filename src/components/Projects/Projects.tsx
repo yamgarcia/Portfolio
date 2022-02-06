@@ -20,7 +20,7 @@ import {
 } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
 
-const Projects = () => (
+const Projects: React.FC = () => (
   <>
     <Section nopadding id='project'>
       <SectionDivider />
@@ -31,7 +31,7 @@ const Projects = () => (
             <BlogCard key={id}>
               <Img src={image} />
               <TitleContent>
-                <HeaderThree title>{title}</HeaderThree>
+                <HeaderThree headerTitle>{title}</HeaderThree>
               </TitleContent>
               <CardInfo>{description}</CardInfo>
               <div>

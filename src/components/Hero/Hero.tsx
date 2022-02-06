@@ -8,7 +8,7 @@ import {
 import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./HeroStyles";
 
-const Hero = () => (
+const Hero: React.FC = () => (
   <>
     <Section row nopadding>
       <LeftSection>

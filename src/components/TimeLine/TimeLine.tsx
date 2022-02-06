@@ -79,11 +79,9 @@ const Timeline: React.FC = () => {
           {TimeLineData.map((item, index: number) => (
             <CarouselMobileScrollNode
               key={index}
-              // @ts-ignore
               final={index === TOTAL_CAROUSEL_COUNT - 1}
             >
               <CarouselItem
-                // @ts-ignore
                 index={index}
                 id={`carousel__item-${index}`}
                 active={activeItem}

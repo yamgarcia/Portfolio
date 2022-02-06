@@ -95,7 +95,9 @@ export const ContactDropDown = styled.button`
   }
 `;
 
-export const NavProductsIcon = styled(IoIosArrowDropdown)`
+export const NavProductsIcon = styled(IoIosArrowDropdown)<{
+  isOpen: any;
+}>`
   margin-left: 8px;
   display: flex;
   align-self: center;

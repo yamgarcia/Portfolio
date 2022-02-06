@@ -14,7 +14,7 @@ import {
   ListTitle,
 } from "./TechnologiesStyles";
 
-const Technologies = () => (
+const Technologies: React.FC = () => (
   <>
     <Section id='tech'>
       <SectionDivider />
