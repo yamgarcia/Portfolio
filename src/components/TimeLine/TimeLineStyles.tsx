@@ -159,7 +159,9 @@ export const CarouselButton = styled("button")<{
   }
 `;
 
-export const CarouselButtonDot = styled.div`
+export const CarouselButtonDot = styled.div<{
+  active: number;
+}>`
   background-color: white;
   border-radius: 10px;
   margin: auto;
