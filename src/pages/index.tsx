@@ -12,7 +12,6 @@ const Home: React.FC = () => {
     <Layout>
       <Section grid>
         <Hero />
-        <BgAnimation />
       </Section>
       <Projects />
       <Technologies />

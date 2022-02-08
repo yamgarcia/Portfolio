@@ -7,6 +7,7 @@ import {
 } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./HeroStyles";
+import UncontrolledLottie from "../../components/BackgrooundAnimation/AnimationComponent";
 
 const Hero: React.FC = () => (
   <>
@@ -24,6 +25,7 @@ const Hero: React.FC = () => (
           Learn More
         </Button>
       </LeftSection>
+      <UncontrolledLottie />
     </Section>
   </>
 );

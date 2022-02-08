@@ -28,6 +28,39 @@ export const Section = styled("section")<{
   }
 `;
 
+export const SectionAnimation = styled("section")<{
+  row?: boolean;
+  nopadding?: boolean;
+  grid?: boolean;
+  alt?: boolean;
+}>`
+  display: ${(props) => (props.grid ? "grid" : "flex")};
+  flex-direction: ${(props) => (props.row ? "row" : "column")};
+  padding: ${(props) => (props.nopadding ? "0" : "32px 48px 0")};
+  margin: 0 auto;
+  max-width: 1040px;
+  box-sizing: content-box;
+  position: relative;
+  grid-template-columns: 1fr 1fr;
+  width: calc(200vw - 32px);
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    padding: ${(props) => (props.nopadding ? "0" : "16px 16px 0")};
+    flex-direction: column;
+    display: ${(props) => (props.grid ? "grid" : "flex")};
+    /* width: calc(100vw - 32px); */
+    width: calc(90vw - 32px);
+    margin-bottom: ${({ alt }) => (alt ? "0" : "32px")};
+  }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    padding: ${(props) => (props.nopadding ? "0" : "16px 16px 0")};
+    display: ${(props) => (props.grid ? "grid" : "flex")};
+
+    flex-direction: column;
+  }
+`;
+
 export const SectionTitle = styled("h2")<{
   main?: boolean;
   center?: boolean;
