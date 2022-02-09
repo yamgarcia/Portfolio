@@ -38,7 +38,7 @@ const Header: React.FC = () => (
         </li>
         <li>
           <Link href='#tech'>
-            <NavLink>Technoligies</NavLink>
+            <NavLink>Technologies</NavLink>
           </Link>
         </li>
         <li>
