@@ -25,9 +25,7 @@ const Header: React.FC = () => (
               color: "white",
               marginBottom: "20",
             }}
-          >
-            <DiCssdeck size='2rem' /> <Span>Portfolio</Span>
-          </a>
+          ></a>
         </Link>
       </Div1>
       <Div2>
