@@ -128,3 +128,21 @@ export const SocialIcons = styled.a`
     cursor: pointer;
   }
 `;
+
+export const GoUp = styled.div`
+  position: fixed;
+  transition: 0.3s ease;
+  color: white;
+  border-radius: 50px;
+  padding: 8px;
+  &:hover {
+    background-color: #212d45;
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+
+  @media ${(props) => props.theme.breakpoints.lg} {
+    transition: ease all 0.5s;
+    display: none;
+  }
+`;

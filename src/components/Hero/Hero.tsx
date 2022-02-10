@@ -19,7 +19,10 @@ const Hero: React.FC = () => {
         <SectionTitle main center>
           Marcos Garcia
         </SectionTitle>
-        <SectionText>Full Stack Development & Digital Marketing</SectionText>
+        <SectionText>
+          Full Stack Development & <br />
+          Digital Marketing
+        </SectionText>
         <Button>
           <ButtonLink href={pdf} download>
             Resume

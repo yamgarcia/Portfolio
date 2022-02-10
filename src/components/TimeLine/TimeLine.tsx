@@ -19,14 +19,16 @@ import {
 } from "../../styles/GlobalComponents";
 import { TimeLineData } from "../../constants/constants";
 
-const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
+const TOTAL_CAROUSEL_COUNT: number = TimeLineData.length;
 
 const Timeline: React.FC = () => {
   const [activeItem, setActiveItem] = useState<number>(0);
-  const carouselRef = useRef<HTMLUListElement>(null);
+  const carouselRef: React.MutableRefObject<HTMLUListElement> =
+    useRef<HTMLUListElement>();
 
-  const scroll = (node, left) => {
-    return node.scrollTo({ left, behavior: "smooth" });
+  const scroll: any = (node: any, left: any) => {
+    if (node != null && left != null)
+      return node.scrollTo({ left, behavior: "smooth" });
   };
 
   const handleClick = (
