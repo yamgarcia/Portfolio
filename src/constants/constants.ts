@@ -1,3 +1,5 @@
+export const pdf = "/Resume.pdf";
+
 interface IProjects extends Array<IProject> {}
 
 interface IProject {
