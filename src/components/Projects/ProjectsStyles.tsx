@@ -36,6 +36,16 @@ export const TitleContent = styled.div`
   width: 100%;
 `;
 
+export const HeaderFour = styled.h4<{
+  headerTitle: boolean;
+}>`
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding: 0.5rem 0;
+  margin: 1em;
+  font-size: ${(props) => (props.headerTitle ? "2rem" : "1rem")};
+`;
+
 export const HeaderThree = styled.h3<{
   headerTitle: boolean;
 }>`

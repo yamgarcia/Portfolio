@@ -12,6 +12,7 @@ import {
   TitleContent,
   UtilityList,
   Img,
+  HeaderFour,
 } from "./ProjectsStyles";
 import {
   Section,
@@ -35,7 +36,9 @@ const Projects: React.FC = () => (
               </TitleContent>
               <CardInfo>{description}</CardInfo>
               <div>
-                <TitleContent>Stack</TitleContent>
+                <TitleContent>
+                  <HeaderFour headerTitle>Stack</HeaderFour>
+                </TitleContent>
                 <TagList>
                   {tags.map((tag, i) => (
                     <Tag key={i}>{tag}</Tag>
@@ -43,8 +46,8 @@ const Projects: React.FC = () => (
                 </TagList>
               </div>
               <UtilityList>
-                <ExternalLinks href={visit}>Code</ExternalLinks>
-                <ExternalLinks href={source}>Source</ExternalLinks>
+                {visit && <ExternalLinks href={visit}>Demo</ExternalLinks>}
+                {source && <ExternalLinks href={source}>Code</ExternalLinks>}
               </UtilityList>
             </BlogCard>
           )

@@ -70,11 +70,13 @@ const Timeline: React.FC = () => {
 
   return (
     <Section id='about'>
+      <SectionDivider />
+      <br />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established
-        developers to take their development skills to the next level and build
-        awesome apps.
+        I'm a Software developer with expansive experience in advertising,
+        designing, and developing products that delight customers and are
+        demanded by the market.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

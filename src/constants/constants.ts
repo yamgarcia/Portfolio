@@ -7,50 +7,50 @@ interface IProject {
   description: string;
   image: string;
   tags: string[];
-  source: string;
-  visit: string;
+  source?: string;
+  visit?: string;
   id: number;
 }
 
 export const projects: IProjects = [
   {
-    title: "MERN Memories",
+    title: "DevNet",
     description:
-      "Using React, Node.js, Express & MongoDB  Full Stack MERN Application -",
+      "Full Stack MERN Application made with Redux, GitHub API, Gravatar API, and Bcryptjs",
     image: "/images/1.png",
-    tags: ["Mongo", "Express", "React", "Node"],
-    source: "https://google.com",
-    visit: "https://google.com",
+    tags: ["React", "Redux", "Node", "MongoDB", "Express"],
+    source: "https://github.com/yamgarcia/DevNet",
+    visit: "https://arcane-dawn-30816.herokuapp.com/",
     id: 0,
   },
   {
-    title: "E-Commerce",
+    title: "Be The Hero",
     description:
-      "React & JavaScript topics, as well as how to us you will be able to add to your portfolio..",
-    image: "/images/2.png",
-    tags: ["React", "JavaScript"],
-    source: "https://google.com",
-    visit: "https://google.com",
+      "Website and Mobile App built to assist Non-Governmental Organizations to find for abandoned animals.",
+    image: "/images/3.png",
+    tags: ["React", "React Native", "Node", "SQLite3", "Express"],
+    source: "https://github.com/yamgarcia/NGOs-Application",
+    visit: "",
     id: 1,
   },
   {
-    title: "WebRTC App",
+    title: "Proffy",
     description:
-      "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-    image: "/images/3.png",
-    tags: ["React", "WebRTC"],
-    source: "https://google.com",
-    visit: "https://google.com",
+      "Web and mobile applications built to help teachers and students to connect and do business.",
+    image: "/images/2.png",
+    tags: ["React", "React Native", "Node", "SQLite3", "Express"],
+    source: "https://github.com/yamgarcia/Proffy",
+    visit: "",
     id: 2,
   },
   {
-    title: "Unichat",
+    title: "Next-Blog",
     description:
-      "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+      "Blog based in Next JS inspired by the sites Dev.to and Medium that allows users to Login with Google.",
     image: "/images/4.png",
-    tags: ["React", "ChatEngine", "Firebase"],
-    source: "https://google.com",
-    visit: "https://google.com",
+    tags: ["React", "Next JS", "Firebase", "Typescript", "Google API"],
+    source: "https://github.com/yamgarcia/next-app",
+    visit: "",
     id: 3,
   },
 ];
