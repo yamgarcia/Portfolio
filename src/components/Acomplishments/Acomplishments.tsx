@@ -1,10 +1,6 @@
 import React from "react";
 
-import {
-  Section,
-  SectionDivider,
-  SectionTitle,
-} from "../../styles/GlobalComponents";
+import { Section, SectionTitle } from "../../styles/GlobalComponents";
 import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
 
 const data = [
@@ -26,7 +22,6 @@ const Acomplishments: React.FC = () => (
           </Box>
         ))}
       </Boxes>
-      <SectionDivider />
     </Section>
   </>
 );

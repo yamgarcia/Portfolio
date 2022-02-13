@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
         <LinkList>
           <LinkColumn>
             <LinkTitle>Call</LinkTitle>
-            <LinkItem href='tell:778-323-2829'>+1 778 323 2829</LinkItem>
+            <LinkItem href='tell:+1 778 323 2829'>778 323 2829</LinkItem>
           </LinkColumn>
           <LinkColumn>
             <LinkTitle>Email</LinkTitle>

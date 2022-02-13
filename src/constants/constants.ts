@@ -63,9 +63,9 @@ interface ITimeLineData {
 }
 
 export const TimeLineData: ITimeLineDatas = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
+  { year: 2017, text: "Started coding to help my team" },
+  { year: 2018, text: "Began my studies at BCIT" },
+  { year: 2019, text: "Started maintaining websites" },
+  { year: 2020, text: "Became an SEM Manager" },
+  { year: 2021, text: "Landed my first developer job" },
 ];

@@ -71,8 +71,7 @@ const Timeline: React.FC = () => {
   return (
     <Section id='about'>
       <SectionDivider />
-      <br />
-      <SectionTitle>About Me</SectionTitle>
+      <SectionTitle main>About Me</SectionTitle>
       <SectionText>
         I'm a Software developer with expansive experience in advertising,
         designing, and developing products that delight customers and are
@@ -147,7 +146,6 @@ const Timeline: React.FC = () => {
           </CarouselButton>
         ))}
       </CarouselButtons>
-      <SectionDivider />
     </Section>
   );
 };

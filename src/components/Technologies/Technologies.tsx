@@ -18,21 +18,27 @@ const Technologies: React.FC = () => (
   <>
     <Section id='tech'>
       <SectionDivider />
-      <SectionTitle>Technologies</SectionTitle>
-      <SectionText>Stack MERN Java EE + React</SectionText>
+      <SectionTitle main>Technologies</SectionTitle>
+      <SectionText>
+        Some of the technologies I have the most experience with
+      </SectionText>
       <List>
         <ListItem>
           <DiReact size='3rem' />
           <ListContainer>
             <ListTitle>Front End</ListTitle>
             <ListParagraph>React.js</ListParagraph>
+            <ListParagraph>React Native</ListParagraph>
+            <ListParagraph>Typescript</ListParagraph>
           </ListContainer>
         </ListItem>
         <ListItem>
           <DiFirebase size='3rem' />
           <ListContainer>
             <ListTitle>Back End</ListTitle>
-            <ListParagraph>Node and Databases</ListParagraph>
+            <ListParagraph>Node</ListParagraph>
+            <ListParagraph>Java EE</ListParagraph>
+            <ListParagraph>SQL & NoSQL</ListParagraph>
           </ListContainer>
         </ListItem>
         <ListItem>
@@ -40,6 +46,8 @@ const Technologies: React.FC = () => (
           <ListContainer>
             <ListTitle>UI/UX</ListTitle>
             <ListParagraph>Figma</ListParagraph>
+            <ListParagraph>Photoshop</ListParagraph>
+            <ListParagraph>Illustrator</ListParagraph>
           </ListContainer>
         </ListItem>
       </List>
