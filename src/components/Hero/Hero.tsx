@@ -24,7 +24,10 @@ const Hero: React.FC = () => {
           Digital Marketing
         </SectionText>
         <Button>
-          <ButtonLink href={pdf} download>
+          <ButtonLink
+            href='https://github.com/yamgarcia/Portfolio/raw/0adb5b3e55d98c3fc3bf659129b85967b6f5b989/public/resume.pdf'
+            download
+          >
             Resume
           </ButtonLink>
           <AiOutlineCloudDownload style={{ margin: "5px" }} size={"20px"} />
