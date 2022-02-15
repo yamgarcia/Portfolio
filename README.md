@@ -26,9 +26,7 @@ The project was a great challenge filled with the most current technologies in W
 The use of React.js was also reasonably crucial due to its demand nowadays, and the number of tools that can be used with it.
 After finishing [COMP 2913 - React and Modern JavaScript](https://www.bcit.ca/study/courses/comp2913) at BCIT I was convinced that the future of frontend was in react, thanks to the user that can be given it and the ease of use, but at the same time, it felt a lot like an introduction and awakened a stronger hunger to keep learning and developing other projects.
 
-It was great to use some useful tools for the first time like <b>Knex</b>, that offers such easy way to create database tables and connections using SQLite3, <b>Expo</b>, that greatly foments mobile development and testing, and <b>Insomnia</b>, that is a lot like Postman but proved to be as useful but feels more modern and smoother.
-
-The project is quite simple but an amazing journey through the market's most powerful stack that is fondly referred to as Omnistack by Rocket Seat and its team.
+The project is quite simple but an amazing journey through the market's most powerful and faster framework.
 
 ---
 
