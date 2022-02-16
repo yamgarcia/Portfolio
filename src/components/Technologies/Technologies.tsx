@@ -1,4 +1,5 @@
 import React from "react";
+import type { NextPage } from "next";
 import { DiFirebase, DiReact, DiZend } from "react-icons/di";
 import {
   Section,
@@ -14,7 +15,7 @@ import {
   ListTitle,
 } from "./TechnologiesStyles";
 
-const Technologies: React.FC = () => (
+const Technologies: NextPage = () => (
   <>
     <Section id='tech'>
       <SectionDivider />

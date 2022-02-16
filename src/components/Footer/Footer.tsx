@@ -1,4 +1,5 @@
 import React from "react";
+import type { NextPage } from "next";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 
 import { SocialIcons } from "../Header/HeaderStyles";
@@ -14,7 +15,7 @@ import {
   SocialIconsContainer,
 } from "./FooterStyles";
 
-const Footer: React.FC = () => {
+const Footer: NextPage = () => {
   return (
     <>
       <FooterWrapper>

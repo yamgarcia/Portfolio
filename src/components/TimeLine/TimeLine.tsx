@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
+import type { NextPage } from "next";
 
 import {
   CarouselButton,
@@ -21,7 +22,7 @@ import { TimeLineData } from "../../constants/constants";
 
 const TOTAL_CAROUSEL_COUNT: number = TimeLineData.length;
 
-const Timeline: React.FC = () => {
+const Timeline: NextPage = () => {
   const [activeItem, setActiveItem] = useState<number>(0);
   const carouselRef: React.MutableRefObject<HTMLUListElement> =
     useRef<HTMLUListElement>();

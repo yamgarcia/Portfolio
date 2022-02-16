@@ -1,5 +1,6 @@
-import Link from "next/link";
 import React, { useState, useEffect } from "react";
+import Link from "next/link";
+import type { NextPage } from "next";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 import { AiOutlineArrowUp } from "react-icons/ai";
 
@@ -14,7 +15,7 @@ import {
   GoUp,
 } from "./HeaderStyles";
 
-const Header: React.FC = () => {
+const Header: NextPage = () => {
   const [offset, setOffset] = useState<number>(0);
 
   useEffect(() => {

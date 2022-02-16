@@ -1,4 +1,5 @@
 import React from "react";
+import type { NextPage } from "next";
 
 import {
   BlogCard,
@@ -21,7 +22,7 @@ import {
 } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
 
-const Projects: React.FC = () => (
+const Projects: NextPage = () => (
   <>
     <Section nopadding id='projects'>
       <SectionDivider />

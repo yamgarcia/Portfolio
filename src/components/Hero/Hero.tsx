@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "next/link";
+import type { NextPage } from "next";
 
 import {
   Section,
@@ -10,9 +10,8 @@ import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection, ButtonLink } from "./HeroStyles";
 import UncontrolledLottie from "../../components/BackgrooundAnimation/AnimationComponent";
 import { AiOutlineCloudDownload } from "react-icons/ai";
-import { pdf } from "../../constants/constants";
 
-const Hero: React.FC = () => {
+const Hero: NextPage = () => {
   return (
     <Section row nopadding>
       <LeftSection>

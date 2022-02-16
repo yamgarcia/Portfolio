@@ -1,5 +1,5 @@
 import React from "react";
-
+import type { NextPage } from "next";
 import { Section, SectionTitle } from "../../styles/GlobalComponents";
 import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
 
@@ -10,7 +10,7 @@ const data = [
   { number: 5000, text: "Github Stars" },
 ];
 
-const Acomplishments: React.FC = () => (
+const Acomplishments: NextPage = () => (
   <>
     <Section>
       <SectionTitle> Acomplishments </SectionTitle>
