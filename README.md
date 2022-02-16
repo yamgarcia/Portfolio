@@ -26,6 +26,8 @@ The project was a great challenge filled with the most current technologies in W
 The use of React.js and Next.js is also crucial due to to market demand nowadays, and the number of tools that can be used with it.
 After finishing [COMP 2913 - React and Modern JavaScript](https://www.bcit.ca/study/courses/comp2913) at BCIT I was convinced that the future of frontend was in react, thanks to the user that can be given it and the ease of use, but at the same time, it felt a lot like an introduction and awakened a stronger hunger to keep learning and developing other projects.
 
+The project is quite simple but an amazing journey through the market's most powerful and faster framework.
+
 ---
 
 - Fork this repository;
