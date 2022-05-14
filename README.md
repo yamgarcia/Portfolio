@@ -16,7 +16,7 @@ The following project was made
 
 ### :muscle: Project
 
-This <b>Portfolio</b> is a project to resemble my front end skills but I encourage you to access it and see more about my other projects. [Click Here](https://marcos-portfolio.herokuapp.com/)
+This <b>Portfolio</b> is a project made with the intention to show my front end skills and showcase the other projects found in my github account. [Click Here](https://marcos-portfolio.herokuapp.com/)
 
 ### 🙋🏽‍♂️ Author's considerations
 
