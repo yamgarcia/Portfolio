@@ -42,7 +42,7 @@ const Header: NextPage = () => {
                 style={{
                   opacity: `${offset > 400 ? 1 : 0}`,
                   transition: "ease all .5s",
-                }}
+                }}  
               >
                 <AiOutlineArrowUp size='2rem' />
                 <Span>Top</Span>
