@@ -21,6 +21,7 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
+import Image from 'next/image';
 
 const Projects: NextPage = () => (
   <>
@@ -31,7 +32,12 @@ const Projects: NextPage = () => (
         {projects.map(
           ({ title, description, tags, source, image, id, visit }) => (
             <BlogCard key={id}>
-              <Img src={image} />
+              <Image 
+              src={image}
+              layout="responsive"
+              width={400}
+              height={400}
+              />
               <TitleContent>
                 <HeaderThree headerTitle>{title}</HeaderThree>
               </TitleContent>
