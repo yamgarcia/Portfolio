@@ -23,7 +23,4 @@ if (isGithubActions) {
 module.exports = {
   assetPrefix: assetPrefix,
   basePath: basePath,
-  images: {
-    domains: ["https://github.com/"],
-  }
 }
