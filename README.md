@@ -1,3 +1,5 @@
+[![Release](https://github.com/yamgarcia/Portfolio/actions/workflows/nextjs.yml/badge.svg)](https://github.com/yamgarcia/Portfolio/actions/workflows/nextjs.yml)
+
 <h4 align="center">
 <a href="https://marcos-portfolio.herokuapp.com/" ><img src="./public/images/portfolio.png" width="500px" /><br></a>
  <b>Marcos' Portfolio</b> 🦸‍♂️
