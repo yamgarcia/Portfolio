@@ -24,7 +24,7 @@ const Hero: NextPage = () => {
         </SectionText>
         <Button>
           <ButtonLink
-            href='https://github.com/yamgarcia/Portfolio/raw/0adb5b3e55d98c3fc3bf659129b85967b6f5b989/public/resume.pdf'
+            href='https://github.com/yamgarcia/Portfolio/raw/master/public/resume.pdf'
             download
           >
             Resume
